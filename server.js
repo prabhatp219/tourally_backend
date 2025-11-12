@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 // MongoDB connection
-mongoose.connect("mongodb+srv://prabhat207:dQuaPuI7ScwvP0h2@cluster0.tzhv7ls.mongodb.net/")
+mongoose.connect('mongodb+srv://prabhat207:dQuaPuI7ScwvP0h2@cluster0.tzhv7ls.mongodb.net/')
   .then(() => console.log("MongoDB connected"))
   .catch(err => console.log(err));
 
